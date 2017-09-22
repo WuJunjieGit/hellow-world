@@ -13,6 +13,7 @@
 		18A3DA091F75304C0035706B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18A3DA071F75304C0035706B /* Main.storyboard */; };
 		18A3DA0B1F75304C0035706B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18A3DA0A1F75304C0035706B /* Assets.xcassets */; };
 		18A3DA0E1F75304C0035706B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18A3DA0C1F75304C0035706B /* LaunchScreen.storyboard */; };
+		18A3DA181F75331D0035706B /* newOne.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A3DA171F75331D0035706B /* newOne.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		18A3DA0A1F75304C0035706B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18A3DA0D1F75304C0035706B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18A3DA0F1F75304C0035706B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18A3DA161F75331D0035706B /* newOne.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = newOne.h; sourceTree = "<group>"; };
+		18A3DA171F75331D0035706B /* newOne.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = newOne.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 		18A3D9FD1F75304C0035706B /* Hellow */ = {
 			isa = PBXGroup;
 			children = (
+				18A3DA151F7533040035706B /* newOne */,
 				18A3DA011F75304C0035706B /* AppDelegate.h */,
 				18A3DA021F75304C0035706B /* AppDelegate.m */,
 				18A3DA041F75304C0035706B /* ViewController.h */,
@@ -77,6 +81,15 @@
 				18A3D9FF1F75304C0035706B /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18A3DA151F7533040035706B /* newOne */ = {
+			isa = PBXGroup;
+			children = (
+				18A3DA161F75331D0035706B /* newOne.h */,
+				18A3DA171F75331D0035706B /* newOne.m */,
+			);
+			name = newOne;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,6 +167,7 @@
 				18A3DA061F75304C0035706B /* ViewController.m in Sources */,
 				18A3DA031F75304C0035706B /* AppDelegate.m in Sources */,
 				18A3DA001F75304C0035706B /* main.m in Sources */,
+				18A3DA181F75331D0035706B /* newOne.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,6 +326,7 @@
 				18A3DA141F75304C0035706B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
